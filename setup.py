@@ -1,19 +1,19 @@
 #!/usr/bin/env python
-from setuptools import setup, find_packages
-
-long_description = read('README.txt','CHANGES.txt')
+from distutils.core import setup
  
 setup(
 
     name="Mwin",
-    author="Zhodiac",
-    version="0.10",
-    license="LICENSE.txt",
+    version="0.01",
     url="https://github.com/Zhodiac/Mwin",
-
+    license="LICENSE.txt",
+    author="Zhodiac",
+    author_email="",
+    
     description="Places programs in certain layouts on screen for easy multitasking",
-    long_description = long_description,
-    packages=find_packages("."),
+    long_description ="",
+    packages=["Mwin"],
+    platforms="any",
     install_requires = [
         "Tkinter"
     ],
